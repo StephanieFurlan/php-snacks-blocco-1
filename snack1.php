@@ -73,6 +73,8 @@ Olimpia Stella Azzurrao - Cantù | 55 - 60 -->
          "ospitePunti" => 30
       ]
    ]
+
+
 ?>
 
 <!DOCTYPE html>
@@ -87,6 +89,7 @@ Olimpia Stella Azzurrao - Cantù | 55 - 60 -->
             // Olimpia Stella Azzurrao - Cantù | 55 - 60
             $match = $matches[$i];
             echo $match["casa"] . " " . $match["ospite"] . " | " . $match["casaPunti"] . " - " . $match["ospitePunti"] . "<br>";
+            var_dump($match);
          }
       ?>
    </body>
