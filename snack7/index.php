@@ -7,7 +7,7 @@
 </head>
     <body>
         <?php 
-            include 'db_hotel.php';
+            include 'main.php';
             foreach($hotels as $hotel) { ?>
                 <h1><?php echo $hotel["name"]?></h1>
                 <p><?php echo "<b>Description:</b> " .  $hotel["description"]?></p>

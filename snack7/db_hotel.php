@@ -40,7 +40,6 @@ $hotels  = [
     ],
 ];
 
-$name = "Stef";
 // header('Content-Type: application/json');
 // echo json_encode($hotels);
 
